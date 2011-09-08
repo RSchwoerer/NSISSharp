@@ -1,0 +1,6 @@
+P:\Visual Studio\Projects\NSISSharp\NSISSharp\bin\Release\NSISSharp.dll
+P:\Visual Studio\Projects\NSISSharp\NSISSharp\bin\Release\NSISSharp.pdb
+P:\Visual Studio\Projects\NSISSharp\NSISSharp\obj\Release\ResolveAssemblyReference.cache
+P:\Visual Studio\Projects\NSISSharp\NSISSharp\obj\Release\NSISSharp.dll
+P:\Visual Studio\Projects\NSISSharp\NSISSharp\obj\Release\NSISSharp.pdb
+P:\Visual Studio\Projects\NSISSharp\NSISSharp\bin\Release\NSISSharp.XML

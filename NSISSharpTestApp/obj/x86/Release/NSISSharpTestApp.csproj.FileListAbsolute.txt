@@ -1,0 +1,8 @@
+P:\Visual Studio\Projects\NSISSharp\NSISSharpTestApp\obj\x86\Release\ResolveAssemblyReference.cache
+P:\Visual Studio\Projects\NSISSharp\NSISSharpTestApp\bin\Release\NSISSharpTestApp.exe
+P:\Visual Studio\Projects\NSISSharp\NSISSharpTestApp\bin\Release\NSISSharpTestApp.pdb
+P:\Visual Studio\Projects\NSISSharp\NSISSharpTestApp\obj\x86\Release\NSISSharpTestApp.exe
+P:\Visual Studio\Projects\NSISSharp\NSISSharpTestApp\obj\x86\Release\NSISSharpTestApp.pdb
+P:\Visual Studio\Projects\NSISSharp\NSISSharpTestApp\bin\Release\NSISSharp.dll
+P:\Visual Studio\Projects\NSISSharp\NSISSharpTestApp\bin\Release\NSISSharp.pdb
+P:\Visual Studio\Projects\NSISSharp\NSISSharpTestApp\bin\Release\NSISSharp.xml
