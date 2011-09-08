@@ -58,7 +58,7 @@ Building NSISSharp:
 Make sure that the paths of the files that are being added with the installer, are pointing to the correct locations, and omit any of them that are not relevant to you.
 
 
-[Licence]
+[License]
 
 NSISSharp is licensed under the MIT License. 
 Copyright (c) 2011 OrangePlanet.org (http://orangeplanet.org) 
