@@ -48,7 +48,7 @@ Build a NSIS installer with one of the NSISSharp examples (optional):
 Source code intructions:
 1. Any of the aforementioned requirements have to be installed. From the official build of NSISSharp, you will need the NSIS scripts only.
 2. Copy the NSISSharp scripts to the include directory of NSIS (default path: %ProgramFiles(x86)%\NSIS\Include). 
-3. Get the NSISSharp source code from Github. Link is on http://orangeplanet.org. (Bug report can be done on the Github page as well).
+3. Get the NSISSharp source code from Github.
    
 Building NSISSharp:
 1. Open the NSISSharp solution file with Visual Studio 2010.
