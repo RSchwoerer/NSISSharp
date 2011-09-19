@@ -1,0 +1,66 @@
+NSISSharp v0.3. 
+Date: 2011/09/08
+Created by: OrangePlanet.org (http://orangeplanet.org)
+
+About NSISSharp:
+NSISSharp is a C# class library, which allows you to create NSIS installers, without any effort, by using C# or VB.NET.  
+What NSISSharp basically does, is: 
+1 It 'translates' C# code into the scripting language that is used by NSIS.
+2 Generates a NSIS script.
+3 Ultimately, it will automatically call the NSIS compiler to create an installer for you.
+
+
+Requirements:
+- .NET Framework 4.0 / http://www.microsoft.com/download/en/details.aspx?displaylang=en&id=17851
+- NSIS / http://nsis.sourceforge.net/Download
+- NSISSharp / http://orangeplanet.org
+- Visual Studio 2010 (any edition will work) / http://www.microsoft.com/visualstudio/en-us/products/2010-editions/visual-csharp-express (Visual C# 2010 Express version.)
+
+
+[Using NSISSharp]
+
+NSISSharp Installation instructions:
+1. Download everything, if needed, from the requirement list.
+2. Make sure you have the latest .NET Framework installed (4.0), if not, install .NET Framework 4.0.
+3. Install NSIS.
+4. Install NSISSharp. (It is recommended to choose atleast the 'Lite' install option on the components page).
+5. Copy the NSIS header files that are provided with NSISSharp (located in the 'NSIS scripts' directory) to the 'Include' directory of NSIS (default path: %ProgramFiles(x86)%\NSIS\Include).
+6. Install Visual Studio 2010.
+
+Create and build a NSIS installer using NSISSharp:
+1. Create a new console project with VS2010 with a project name of your choice. 
+	This project will contain your setup code for the installer that you're about to create.
+2. Add a reference to NSISSharp. NSISSharp should be listed as a .NET assembly, given that you have used the official NSISSharp installer.
+	If you have made your own build of NSISSharp, and you didn't add the necessary registry files for it to be listed under the .NET assembly tab,
+	then add a reference to your own build by using the 'Browse' tab.
+3. Write the setup code; refer to the VS2010 examples that is provided with NSISSharp.
+4. Run/build the console project. If everything went well (read as: build correctly without any errors), a NSIS installer will be created. 
+	The NSIS installer will be created in the the output directory of your console project (default: debug/release directory; depends on what currently is set).
+
+Build a NSIS installer with one of the NSISSharp examples (optional):
+1. Navigate to where you have installed the examples and open its solution file with Visual Studio 2010.
+2. Right click one of the example projects in the solution explorer -> Highlight 'Debug' -> Select 'Start new instance'.
+3. An installer will be built in the output directory of the example project that you have used.
+
+
+[Build NSISSharp]
+
+Source code intructions:
+1. Any of the aforementioned requirements have to be installed. From the official build of NSISSharp, you will need the NSIS scripts only.
+2. Copy the NSISSharp scripts to the include directory of NSIS (default path: %ProgramFiles(x86)%\NSIS\Include). 
+3. Get the NSISSharp source code from Github.
+   
+Building NSISSharp:
+1. Open the NSISSharp solution file with Visual Studio 2010.
+2. Choose between Debug/Release.
+3. Right click the NSISSharp project in the solution explorer, and click Build. You can find your build in the output directory.
+4. (Optional)  Use the NSISSharpTestApp project to create the installer for NSISSharp. This is what is used to build the official NSISSharp installer. 
+Make sure that the paths of the files that are being added with the installer, are pointing to the correct locations, and omit any of them that are not relevant to you.
+
+
+[License]
+
+NSISSharp is licensed under the MIT License. 
+Copyright (c) 2011 OrangePlanet.org (http://orangeplanet.org) 
+
+See also: license.txt
